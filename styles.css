@@ -67,6 +67,28 @@ code {
   font-family: monospace;
   font-size: 1.2rem;
 }
+.math {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  font-family: monospace;
+  text-align: center;
+  color: black;
+  font-size: 1.4rem;
+  
+}
+.math > div {
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  
+  
+}
+.math > .eq-label {
+  background-color: rgb(240, 240, 240);
+  text-align: right;
+  color: black;
+  margin-left: auto;
+}
 @media screen and (max-width: 800px) {
   
   img {
@@ -79,5 +101,10 @@ code {
   }
   .page-title {
     font-size: 1.5rem;
+  }
+  .math {
+    flex-direction: column;
+    font-size: 1.2rem;
+    
   }
 }
